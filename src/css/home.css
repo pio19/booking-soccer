@@ -1,0 +1,446 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    display: flex;
+}
+
+.logo {
+    width: 10%;
+}
+
+section.section1 {
+    width: 100%;
+    height: 80vh;
+    box-sizing: border-box;
+    background: url(/src/image/image-header.jpg);
+    background-size: cover;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 0 100px;
+    box-sizing: border-box;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.12), 0 8px 8px rgba(0, 0, 0, 0.12), 0 16px 16px rgba(0, 0, 0, 0.12);
+}
+
+nav .brand {
+    float: left;
+    height: 100%;
+    line-height: 80px;
+}
+
+nav .brand h2 {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+nav ul {
+    float: right;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    position: relative;
+    display: block;
+    height: 80px;
+    line-height: 80px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s
+}
+
+nav ul li a:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    transform-origin: right;
+    z-index: -1;
+    transform: scaleX(0);
+    transition: transform 0.5s;
+}
+
+nav ul li a:hover:before {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+nav ul li a:hover {
+    color: #262626;
+}
+
+
+/* CSS Body */
+
+.section2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+}
+
+.column.side {
+    width: 20%;
+}
+
+.column.middle {
+    width: 60%;
+}
+
+@media screen and (max-width: 600px) {
+    .column.side,
+    .column.middle {
+        width: 100%;
+    }
+}
+
+
+/* Clear float khác sau các cột */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* CSS Footer */
+
+footer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    background: #111;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+footer .container .noi-dung {
+    margin-right: 30px;
+}
+
+footer .container .noi-dung.about {
+    width: 40%;
+}
+
+footer .container .noi-dung.about h2 {
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+footer .container .noi-dung.about h2:before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f00;
+}
+
+footer .container .noi-dung.about p {
+    color: #999;
+}
+
+.social-icon {
+    margin-top: 20px;
+    display: flex;
+}
+
+.social-icon li {
+    list-style: none;
+}
+
+.social-icon li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.social-icon li a:hover {
+    background: #f00;
+}
+
+.social-icon li a .fa {
+    color: #fff;
+    font-size: 20px;
+}
+
+.links h2 {
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.links h2 {
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.links h2::before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f00;
+}
+
+.links {
+    position: relative;
+    width: 25%;
+}
+
+.links ul li {
+    list-style: none;
+}
+
+.links ul li a {
+    color: #999;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.links ul li a:hover {
+    color: #fff;
+}
+
+.contact h2 {
+    position: relative;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.contact h2::before {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background: #f00;
+}
+
+.contact {
+    width: calc(35% - 60px);
+    margin-right: 0 !important;
+}
+
+.contact .info {
+    position: relative;
+}
+
+.contact .info li {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.contact .info li span:nth-child(1) {
+    color: #fff;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.contact .info li span {
+    color: #999;
+}
+
+.contact .info li a {
+    color: #999;
+    text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    background: transparent;
+    color: inherit;
+    font: inherit;
+    border: 0;
+    outline: 0;
+    padding: 0;
+    margin-top: 16px;
+    transition: all 200ms ease-in;
+    cursor: pointer;
+}
+
+.btn--primary {
+    background: #222;
+    color: #fff;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, .1);
+    border-radius: 2px;
+    padding: 8px 24px;
+}
+
+.btn--primary:hover {
+    background: #f00;
+}
+
+.btn--primary:active {
+    background: #f00;
+    box-shadow: inset 0 0 10px 2px rgba(0, 0, 0, .2);
+}
+
+.form__field {
+    width: 90%;
+    background: #fff;
+    color: #a3a3a3;
+    font: inherit;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .1);
+    border: 0;
+    outline: 0;
+    padding: 8px 4px;
+}
+
+@media (max-width: 768px) {
+    footer {
+        padding: 40px;
+    }
+    footer .container {
+        flex-direction: column;
+    }
+    footer .container .noi-dung {
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+    footer .container,
+    .noi-dung.about,
+    .links,
+    .contact {
+        width: 100%;
+    }
+}
+
+
+/* body*/
+
+
+/* 
+.gioithieu {
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    margin: 30px 20px 0px 20px;
+}
+
+h3 {
+    font: 20px "Noto Serif";
+    color: black;
+    height: 32px;
+}
+
+h2 {
+    font: 25.6px Roboto, sans-serif;
+    color: black;
+    margin: 0px 0px 12.8px;
+}
+
+h1 {
+    font: 32.5px Cormorant;
+    color: black;
+    margin: 0px 0px 17.6px;
+    height: 45.75px;
+}
+
+p {
+    font: 16px Roboto, sans-serif;
+    height: 102px;
+    margin: 0px 0px 20.8px;
+}
+
+.box-image {
+    width: 100%;
+    height: 323.05px;
+    display: flex
+}
+
+.image-1 {
+    margin: 20px 25px;
+}
+
+.dichvu {
+    width: 100%;
+    height: 700px;
+    text-align: center;
+    margin: 30px 20px 0px 20px;
+    display: block;
+}
+
+.box-drink {
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+
+.drink {
+    height: 200px;
+    width: 900px;
+}
+
+.box-giay {
+    width: 100%;
+    height: 700px;
+    text-align: center;
+    margin: 30px 20px 0px 20px;
+    display: block
+}
+
+.giay {
+    height: 500px;
+    width: 900px;
+    text-align: center;
+}
+
+.image-giay {
+    float: left;
+    margin: 0px 20px 0px 130px;
+} */
