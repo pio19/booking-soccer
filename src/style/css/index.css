@@ -30,19 +30,19 @@
     margin: 6px 0px;
 }
 
-.h-introduce-menu-menu {
+.h-introduce-menu-details {
     width: 70%;
     height: 72px;
     border: 1px solid gray;
     margin: 14px 0px;
 }
 
-.h-introduce-menu-menu ul {
+.h-introduce-menu-details ul {
     display: flex;
     text-align: center;
 }
 
-.h-introduce-menu-menu ul li {
+.h-introduce-menu-details ul li {
     list-style: none;
     font-size: 18px;
     text-align: center;
@@ -51,7 +51,7 @@
     font-variant: unset;
 }
 
-.h-introduce-menu-menu ul li:hover {
+.h-introduce-menu-details ul li:hover {
     color: red;
 }
 
@@ -63,4 +63,8 @@
 
 .menu {
     font-family: "Roboto", sans-serif;
+}
+
+footer {
+    background-color: gold;
 }
