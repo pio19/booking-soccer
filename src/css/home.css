@@ -361,86 +361,101 @@ footer .container .noi-dung.about p {
 }
 
 
-/* body*/
+/* section */
 
 
-/* 
-.gioithieu {
+
+.gioithieu{
     width: 100%;
     height: 250px;
     text-align: center;
     margin: 30px 20px 0px 20px;
 }
-
-h3 {
+h3{
     font: 20px "Noto Serif";
     color: black;
     height: 32px;
 }
-
-h2 {
+h2{
     font: 25.6px Roboto, sans-serif;
     color: black;
     margin: 0px 0px 12.8px;
+    
 }
-
-h1 {
+h1{
     font: 32.5px Cormorant;
     color: black;
     margin: 0px 0px 17.6px;
     height: 45.75px;
 }
-
-p {
+p{
     font: 16px Roboto, sans-serif;
     height: 102px;
     margin: 0px 0px 20.8px;
 }
-
-.box-image {
+.box-image{
     width: 100%;
     height: 323.05px;
     display: flex
 }
-
-.image-1 {
-    margin: 20px 25px;
+.image-1{
+    margin: 20px 30px 20px 200px;
 }
-
-.dichvu {
+.image-2{
+    margin: 20px 30px 20px 30px;
+}
+.image-3{
+    margin: 20px 30px 20px 30px;
+}
+.image-4{
+    margin: 20px 200px 20px 30px;
+}
+.dichvu{
     width: 100%;
     height: 700px;
     text-align: center;
-    margin: 30px 20px 0px 20px;
+    margin: 100px 20px 0px 20px;
     display: block;
 }
-
-.box-drink {
+.box-drink{
     width: 100%;
     height: 300px;
     display: flex;
 }
-
-.drink {
-    height: 200px;
-    width: 900px;
+.drink{
+    height: 300px;
+    width: 620px;
+    background-color: bisque;
+    margin: 0px 20px 0px 150px;
 }
-
-.box-giay {
+.image-drink{
+    float: right;
+    margin: 0px 70px 0px 0px;   
+}
+.box-giay{
     width: 100%;
     height: 700px;
     text-align: center;
     margin: 30px 20px 0px 20px;
-    display: block
+    display: flex
 }
-
-.giay {
-    height: 500px;
-    width: 900px;
+.giay{
+    height: 300px;
+    width: 630px;
     text-align: center;
+    background-color: bisque;
+    float: right;
+    margin: 0px 70px 0px 0px;   
 }
-
-.image-giay {
+.image-giay{
     float: left;
     margin: 0px 20px 0px 130px;
-} */
+    
+}
+.dichvu h2{
+    margin: 20px ;
+}
+.dichvu p{
+    margin: 20px ;
+
+}
