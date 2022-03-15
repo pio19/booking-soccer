@@ -407,6 +407,7 @@ p {
 
 .box-image {
     display: flex;
+    justify-content: space-around;
     height: 300px;
     margin: 0px 20px;
 }
