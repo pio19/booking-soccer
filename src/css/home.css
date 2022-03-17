@@ -100,9 +100,9 @@ nav ul li a:hover {
     content: "";
     display: table;
     clear: both;
-
 }
-.section2{
+
+.section2 {
     display: flex;
 }
 
@@ -185,7 +185,6 @@ footer .container .noi-dung.about h2:before {
 footer .container .noi-dung.about p {
     color: #999;
 }
-
 
 .social-icon {
     margin-top: 20px;
@@ -370,52 +369,68 @@ footer .container .noi-dung.about p {
 
 
 /* section */
+
+
 /* CSS chung phần section */
-h3{
+
+h3 {
     font: 20px "Noto Serif";
     color: black;
     height: 32px;
 }
-h2{
+
+h2 {
     font: 25.6px Roboto, sans-serif;
     color: black;
     margin: 0px 0px 12.8px;
-    
 }
-h1{
+
+h1 {
     font: 32.5px Cormorant;
     color: black;
     margin: 0px 0px 17.6px;
     height: 45.75px;
 }
-p{
+
+p {
     font: 16px Roboto, sans-serif;
     height: 102px;
     margin: 0px 0px 20.8px;
 }
+
+
 /* CSS phần giới thiêu */
-.gioithieu{
+
+.gioithieu {
     font-display: flex;
     text-align: center;
     color: black;
 }
-.box-image{
+
+.box-image {
     display: flex;
     height: 350px;
     justify-content: space-around;
 
 }
+
+
 /* End CSS phần giới thiệu */
+
+
 /* CSS phần dịch vụ */
-.dichvu{
+
+.dichvu {
     text-align: center;
     color: black;
 }
-.box-drink{
+
+.box-drink {
     display: flex;
     justify-content: space-around;
 }
-.drink{
+
+.drink {
     color: black;
     width: 625px;
     height: 300px;
@@ -425,7 +440,8 @@ p{
     justify-content: space-around;
 
 }
-.giay{
+
+.giay {
     text-align: center;
     float: right;
     width: 625px;
@@ -435,15 +451,18 @@ p{
     text-align: center;
     margin: 20px 200px 10px 200px;
 }
-.drink p{
+
+.drink p {
     text-align: center;
     margin: 0px 30px;
 }
-.giay h2{
+
+.giay h2 {
     text-align: center;
     margin: 20px 250px 10px 250px;
 }
-.giay p{
+
+.giay p {
     text-align: center;
     margin: 0px 30px;
 }
