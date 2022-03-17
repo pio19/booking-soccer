@@ -1,0 +1,49 @@
+/* Css phần giới thiệu */
+*{
+    margin: 0;
+    padding: 0;
+}
+.gt-top{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    display: block;
+}
+.gt-top h1{
+    margin: 20px 0px 5px 0px;
+}
+.gt-center{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+}
+.center-left{
+    display: block;
+    text-align: center;
+}
+.center-right{
+    display: block;
+    text-align: center;
+}
+.gt-right{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+.right-left{
+    display: block;
+    text-align: center; 
+    margin: 0px 20px;
+}
+.right-center{
+    display: block;
+    text-align: center; 
+    margin: 0px 20px;
+}
+.right-right{
+    display: block;
+    text-align: center; 
+    margin: 0px 20px;
+}
