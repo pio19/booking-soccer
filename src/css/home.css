@@ -3,7 +3,9 @@ body {
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
-
+.brand-trangchu{
+    color:yellow;
+}
 h2 {
     display: flex;
 }
@@ -399,8 +401,9 @@ p{
 }
 .box-image{
     display: flex;
-    height: 300px;
-    margin: 0px 20px;
+    height: 350px;
+    justify-content: space-around;
+
 }
 /* End CSS phần giới thiệu */
 /* CSS phần dịch vụ */
@@ -410,28 +413,23 @@ p{
 }
 .box-drink{
     display: flex;
+    justify-content: space-around;
 }
 .drink{
     color: black;
-    margin: 0px 0px 0px 30px;
     width: 625px;
     height: 300px;
 }
-.image-drink{
-    margin: 0px 30px 0px 0px;
-}
 .box-giay{
     display: flex;
+    justify-content: space-around;
+
 }
 .giay{
     text-align: center;
     float: right;
-    margin: 0px 0px 0px 1px;
     width: 625px;
     height: 300px;
-}
-.image-giay{
-    margin: 0px 0px 0px 30px;
 }
 .drink h2{
     text-align: center;

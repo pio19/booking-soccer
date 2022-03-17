@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
+.brand-gioithieu{
+    color:yellow;
+}
 .gt-top{
     width: 100%;
     height: 200px;
