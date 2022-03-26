@@ -3,11 +3,14 @@ body {
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
-.brand-trangchu{
-    color:yellow;
+
+.brand-trangchu {
+    color: yellow;
 }
+
 h2 {
     display: flex;
+    align-items: center;
 }
 
 .logo {
@@ -142,7 +145,7 @@ nav ul li a:hover {
 footer {
     position: relative;
     width: 100%;
-    height: auto;
+    height: 40vh;
     padding: 50px 100px;
     background: #111;
     display: flex;
@@ -411,7 +414,6 @@ p {
     display: flex;
     height: 350px;
     justify-content: space-around;
-
 }
 
 
@@ -435,10 +437,10 @@ p {
     width: 625px;
     height: 300px;
 }
-.box-giay{
+
+.box-giay {
     display: flex;
     justify-content: space-around;
-
 }
 
 .giay {
@@ -447,7 +449,8 @@ p {
     width: 625px;
     height: 300px;
 }
-.drink h2{
+
+.drink h2 {
     text-align: center;
     margin: 20px 200px 10px 200px;
 }
@@ -466,4 +469,6 @@ p {
     text-align: center;
     margin: 0px 30px;
 }
+
+
 /* End CSS phần dịch vụ */
